@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             users.push({ username, password, role });
             localStorage.setItem('users', JSON.stringify(users));
             alert('User registered!');
-            window.location.href = 'login.html';
+            window.location.href = 'login1.html';
         });
     }
 
